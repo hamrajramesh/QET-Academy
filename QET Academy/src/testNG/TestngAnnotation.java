@@ -17,6 +17,7 @@ public class TestngAnnotation {
 		System.out.println("starting testng");
 	}
 	
+	//@BeforeTest is used before the test
 	@BeforeTest
 	public void beforeTest() {
 		System.out.println("starting test execution");
