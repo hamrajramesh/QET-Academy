@@ -3,9 +3,10 @@ package Listeners;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@Test
+
 public class LoginTest {
 	
+	//@Test is used before the test
 	@Test
 	public void loginviaFacebook() {
 		
