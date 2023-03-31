@@ -13,7 +13,7 @@ public class LoginTest {
 		System.out.println("login with facebook");
 		Assert.assertFalse(4<1);
 	}
-	
+	//@Test is use before the test
     @Test
 	public void loginviaGoogle() {
 		System.out.println("login with google");
