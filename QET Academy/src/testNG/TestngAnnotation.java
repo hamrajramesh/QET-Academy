@@ -23,7 +23,7 @@ public class TestngAnnotation {
 		System.out.println("starting test execution");
 	}
 	
-	
+	//@BeforeClass is used before class
 	@BeforeClass
 	public void beforeClass() {
 		System.out.println("initilized selenium");
